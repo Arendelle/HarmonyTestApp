@@ -13,6 +13,10 @@ struct Index {
           center: { anchor: '__container__', align: VerticalAlign.Center },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
         })
+      Button("click pls")
+        .onClick(() => {
+          console.log("clicked")
+        })
     }
     .height('100%')
     .width('100%')
