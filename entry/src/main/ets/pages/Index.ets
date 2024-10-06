@@ -15,7 +15,7 @@ struct Index {
         })
       Button("click pls")
         .onClick(() => {
-          console.log("clicked")
+          console.log("ccccc")
         })
     }
     .height('100%')
